@@ -1,5 +1,5 @@
 services:
   web: 
-    image: /simadminlead/napp
+    image: "simadminlead/napp:latest"
     ports:
       - "8000:8000"
