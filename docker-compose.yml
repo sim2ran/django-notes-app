@@ -4,4 +4,3 @@ services:
      context: "simadminlead/napp"
    ports:
      - "8000:8000"
-
