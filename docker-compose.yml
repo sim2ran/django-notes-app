@@ -1,7 +1,5 @@
 services:
-  web:
-    build:
-      context: "./simadminlead/napp"  
-    image: yourusername/napp:latest
+  web: 
+    image: /simadminlead/napp
     ports:
       - "8000:8000"
