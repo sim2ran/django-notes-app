@@ -1,6 +1,6 @@
 services:
   web: 
    build:
-     context: "simadminlead/napp"
+     image: "simadminlead/napp"
    ports:
      - "8000:8000"
